@@ -1,0 +1,4 @@
+FROM openjdk:8-alpine3.7
+EXPOSE 5005
+ADD spring/target/Function.jar Function.jar
+ENTRYPOINT ["java","-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005","-jar","Function.jar"]

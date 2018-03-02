@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  webserver:
+    build: 
+      context: .
+      dockerfile: Dockerfile-dev
+    image: actiondockerspring
+    ports:
+      - "8080:8080" 
+      - "5005:5005"
+    restart: always 

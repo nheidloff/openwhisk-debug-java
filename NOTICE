@@ -1,0 +1,12 @@
+This product includes software originally developed by IBM Corporation
+Copyright 2018 IBM Corp.
+https://github.com/nheidloff/openwhisk-debug-java
+
+
+Dependencies are pulled via Maven and available under ALv2.
+
+spring-boot-starter-web
+spring-boot-starter-test
+spring-boot-devtools
+spring-boot-maven-plugin
+com.jayway.jsonpath
