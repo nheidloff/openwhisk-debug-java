@@ -19,6 +19,7 @@ In order to run the code you need the following prerequisites:
 * [Eclipse Java EE IDE for Web Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygen3rc2)
 * [Docker](https://docs.docker.com/engine/installation/)
 * [git](https://git-scm.com/downloads)
+* [IBM Cloud account](https://ibm.biz/nheidloff)
 
 
 ## Setup
