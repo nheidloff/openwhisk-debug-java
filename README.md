@@ -32,7 +32,7 @@ $ cd openwhisk-debug-java
 
 Open Eclipse, choose 'Import existing Maven project' and select the directory 'openwhisk-debug-java/spring'.
 
-In order to test the sample function locally, run a Maven build (see [screenshot](screenshots/config-maven)) and invoke these commands:
+In order to test the sample function locally, run a Maven build (see [screenshot](screenshots/config-maven.png)) and invoke these commands:
 
 ```sh
 $ docker build -t openwhisk-docker-spring-boot:latest .
@@ -70,7 +70,7 @@ In order to debug code, run the following command:
 $ docker-compose up --build
 ```
 
-Next you need to configure the remote debugger. Create a new debug configuration, set 'Function' as project and '5005' as port (see [screenshot](screenshots/config-debugger)).
+Next you need to configure the remote debugger. Create a new debug configuration, set 'Function' as project and '5005' as port (see [screenshot](screenshots/config-debugger.png)).
 
 After this you can set debug points and trigger the function via this curl command:
 
